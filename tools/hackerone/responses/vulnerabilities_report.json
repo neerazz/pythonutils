@@ -1,0 +1,380 @@
+{
+  "data": {
+    "id": "1337",
+    "type": "report",
+    "attributes": {
+      "title": "RXSS ",
+      "state": "triaged",
+      "created_at": "2022-02-02T17:56:30.358Z",
+      "vulnerability_information": "Hi team,\n\nFor understanding the context of the vulnerability we need to understand Akamai cdn's routing system which allocates IP addresses for their client. So when a client uses akamai CDN akamai assigns an IP address to the respective organization. (https://learn.akamai.com/en-us/webhelp/client-access-control/client-access-control-user-guide/GUID-453BB6D2-36B9-4CE8-9F3A-D2CB47008B13.html)\n\nSSL: https://www.shodan.io/host/23.211.206.46\n\nSubject: C=US, ST=MASSACHUSETTS, L=Boston, O=Wayfair, LLC\n\nPOC: \n```\nhttp://23.211.206.46/7/0/33/1d/www.citysearch.com/search?what=x&where=place%22%3E%3Csvg+onload=confirm(document.domain)%3E\n```\n\n## Impact\n\nAn attacker can perform an XSS attack.\n\nRegards,\n@hrithikbot",
+      "triaged_at": "2022-02-03T16:40:49.021Z",
+      "closed_at": null,
+      "last_reporter_activity_at": "2022-02-02T17:56:30.603Z",
+      "first_program_activity_at": "2022-02-03T16:40:49.021Z",
+      "last_program_activity_at": "2022-02-03T16:41:04.805Z",
+      "bounty_awarded_at": "2022-02-03T16:41:04.805Z",
+      "swag_awarded_at": null,
+      "disclosed_at": null,
+      "reporter_agreed_on_going_public_at": null,
+      "issue_tracker_reference_id": "SAPPS-1287",
+      "last_public_activity_at": "2022-02-03T16:41:04.805Z",
+      "last_activity_at": "2022-02-03T16:41:04.805Z",
+      "cve_ids": [],
+      "source": null,
+      "timer_bounty_awarded_elapsed_time": 15,
+      "timer_bounty_awarded_miss_at": "2022-03-17T16:40:49.021Z",
+      "timer_first_program_response_miss_at": "2022-02-07T17:56:30.603Z",
+      "timer_first_program_response_elapsed_time": 81858,
+      "timer_report_resolved_miss_at": "2022-02-02T17:56:30.603Z",
+      "timer_report_resolved_elapsed_time": null,
+      "timer_report_triage_miss_at": "2022-02-10T17:56:30.603Z",
+      "timer_report_triage_elapsed_time": 81858
+    },
+    "relationships": {
+      "reporter": {
+        "data": {
+          "id": "1337",
+          "type": "user",
+          "attributes": {
+            "reputation": 3293,
+            "signal": 5.76158940397351,
+            "impact": 12.865853658536585,
+            "username": "hrithikbot",
+            "name": "Hrithik Mishra",
+            "disabled": false,
+            "created_at": "2019-07-21T18:42:42.926Z",
+            "profile_picture": {
+              "62x62": "/assets/avatars/default.png",
+              "82x82": "/assets/avatars/default.png",
+              "110x110": "/assets/avatars/default.png",
+              "260x260": "/assets/avatars/default.png"
+            },
+            "bio": "",
+            "website": null,
+            "location": "Mumbai",
+            "hackerone_triager": false
+          }
+        }
+      },
+      "assignee": {
+        "data": {
+          "id": "1643338",
+          "type": "user",
+          "attributes": {
+            "username": "sattanayakemudiyanse",
+            "name": "Suresh Attanayake",
+            "disabled": false,
+            "created_at": "2021-04-07T09:50:23.833Z",
+            "profile_picture": {
+              "62x62": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+              "82x82": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+              "110x110": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+              "260x260": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png"
+            },
+            "signal": null,
+            "impact": null,
+            "reputation": null,
+            "bio": null,
+            "website": null,
+            "location": null,
+            "hackerone_triager": false
+          }
+        }
+      },
+      "program": {
+        "data": {
+          "id": "1337",
+          "type": "program",
+          "attributes": {
+            "handle": "security",
+            "created_at": "2016-02-02T04:05:06.000Z",
+            "updated_at": "2016-02-02T04:05:06.000Z"
+          }
+        }
+      },
+      "severity": {
+        "data": {
+          "id": "57",
+          "type": "severity",
+          "attributes": {
+            "rating": "high",
+            "author_type": "User",
+            "user_id": 1337,
+            "created_at": "2016-02-02T04:05:06.000Z",
+            "score": 8.7,
+            "attack_complexity": "low",
+            "attack_vector": "adjacent",
+            "availability": "high",
+            "confidentiality": "low",
+            "integrity": "high",
+            "privileges_required": "low",
+            "user_interaction": "required",
+            "scope": "changed"
+          }
+        }
+      },
+      "swag": {
+        "data": []
+      },
+      "attachments": {
+        "data": []
+      },
+      "weakness": {
+        "data": {
+          "id": "1337",
+          "type": "weakness",
+          "attributes": {
+            "name": "Cross-Site Request Forgery (CSRF)",
+            "description": "The web application does not, or can not, sufficiently verify whether a well-formed, valid, consistent request was intentionally provided by the user who submitted the request.",
+            "external_id": "cwe-352",
+            "created_at": "2016-02-02T04:05:06.000Z"
+          }
+        }
+      },
+      "structured_scope": {
+        "data": {
+          "id": "57",
+          "type": "structured-scope",
+          "attributes": {
+            "asset_identifier": "api.example.com",
+            "asset_type": "url",
+            "confidentiality_requirement": "high",
+            "integrity_requirement": "high",
+            "availability_requirement": "high",
+            "max_severity": "critical",
+            "created_at": "2015-02-02T04:05:06.000Z",
+            "updated_at": "2016-05-02T04:05:06.000Z",
+            "instruction": null,
+            "eligible_for_bounty": true,
+            "eligible_for_submission": true,
+            "reference": "H001001"
+          }
+        }
+      },
+      "activities": {
+        "data": [
+          {
+            "type": "activity-comment",
+            "id": "445",
+            "attributes": {
+              "message": "Comment!",
+              "created_at": "2016-02-02T04:05:06.000Z",
+              "updated_at": "2016-02-02T04:05:06.000Z",
+              "internal": false
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1337",
+                  "type": "user",
+                  "attributes": {
+                    "username": "api-example",
+                    "name": "API Example",
+                    "disabled": false,
+                    "created_at": "2016-02-02T04:05:06.000Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default.png",
+                      "82x82": "/assets/avatars/default.png",
+                      "110x110": "/assets/avatars/default.png",
+                      "260x260": "/assets/avatars/default.png"
+                    },
+                    "signal": null,
+                    "impact": null,
+                    "reputation": null,
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "hackerone_triager": false
+                  }
+                }
+              },
+              "attachments": {
+                "data": [
+                  {
+                    "id": "1337",
+                    "type": "attachment",
+                    "attributes": {
+                      "expiring_url": "/system/attachments/files/000/001/337/original/root.rb?1454385906",
+                      "created_at": "2016-02-02T04:05:06.000Z",
+                      "file_name": "root.rb",
+                      "content_type": "text/x-ruby",
+                      "file_size": 2871
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1337",
+            "type": "activity-bug-resolved",
+            "attributes": {
+              "message": "Bug Resolved!",
+              "created_at": "2016-02-02T04:05:06.000Z",
+              "updated_at": "2016-02-02T04:05:06.000Z",
+              "internal": false
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1337",
+                  "type": "user",
+                  "attributes": {
+                    "username": "api-example",
+                    "name": "API Example",
+                    "disabled": false,
+                    "created_at": "2016-02-02T04:05:06.000Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default.png",
+                      "82x82": "/assets/avatars/default.png",
+                      "110x110": "/assets/avatars/default.png",
+                      "260x260": "/assets/avatars/default.png"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bounties": {
+        "data": [
+          {
+            "id": "366317",
+            "type": "bounty",
+            "attributes": {
+              "amount": "100.00",
+              "bonus_amount": "0.00",
+              "awarded_amount": "100.00",
+              "awarded_bonus_amount": "0.00",
+              "awarded_currency": "USD",
+              "created_at": "2022-02-03T16:41:04.796Z",
+              "relationships": {
+                "report": {
+                  "data": {
+                    "id": "1468598",
+                    "type": "report",
+                    "attributes": {
+                      "title": "RXSS ",
+                      "state": "triaged",
+                      "created_at": "2022-02-02T17:56:30.358Z",
+                      "vulnerability_information": "Hi team,\n\nFor understanding the context of the vulnerability we need to understand Akamai cdn's routing system which allocates IP addresses for their client. So when a client uses akamai CDN akamai assigns an IP address to the respective organization. (https://learn.akamai.com/en-us/webhelp/client-access-control/client-access-control-user-guide/GUID-453BB6D2-36B9-4CE8-9F3A-D2CB47008B13.html)\n\nSSL: https://www.shodan.io/host/23.211.206.46\n\nSubject: C=US, ST=MASSACHUSETTS, L=Boston, O=Wayfair, LLC\n\nPOC: \n```\nhttp://23.211.206.46/7/0/33/1d/www.citysearch.com/search?what=x\u0026where=place%22%3E%3Csvg+onload=confirm(document.domain)%3E\n```\n\n## Impact\n\nAn attacker can perform an XSS attack.\n\nRegards,\n@hrithikbot",
+                      "triaged_at": "2022-02-03T16:40:49.021Z",
+                      "closed_at": null,
+                      "last_reporter_activity_at": "2022-02-02T17:56:30.603Z",
+                      "first_program_activity_at": "2022-02-03T16:40:49.021Z",
+                      "last_program_activity_at": "2022-02-03T16:41:04.805Z",
+                      "bounty_awarded_at": "2022-02-03T16:41:04.805Z",
+                      "swag_awarded_at": null,
+                      "disclosed_at": null,
+                      "reporter_agreed_on_going_public_at": null,
+                      "issue_tracker_reference_id": "SAPPS-1287",
+                      "last_public_activity_at": "2022-02-03T16:41:04.805Z",
+                      "last_activity_at": "2022-02-03T16:41:04.805Z",
+                      "source": null,
+                      "timer_bounty_awarded_elapsed_time": 15,
+                      "timer_bounty_awarded_miss_at": "2022-03-17T16:40:49.021Z",
+                      "timer_first_program_response_miss_at": "2022-02-07T17:56:30.603Z",
+                      "timer_first_program_response_elapsed_time": 81858,
+                      "timer_report_resolved_miss_at": "2022-02-02T17:56:30.603Z",
+                      "timer_report_resolved_elapsed_time": null,
+                      "timer_report_triage_miss_at": "2022-02-10T17:56:30.603Z",
+                      "timer_report_triage_elapsed_time": 81858
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "summaries": {
+        "data": []
+      },
+      "triggered_pre_submission_trigger": {
+        "data": {
+          "id": "1337",
+          "type": "trigger",
+          "attributes": {
+            "title": "Example Trigger"
+          }
+        }
+      },
+      "custom_field_values": {
+        "data": [
+          {
+            "id": "1337",
+            "type": "custom-field-value",
+            "attributes": {
+              "value": "Infrastructure",
+              "created_at": "2016-02-02T04:05:06.000Z",
+              "updated_at": "2016-02-02T04:05:06.000Z"
+            },
+            "relationships": {
+              "custom_field_attribute": {
+                "data": {
+                  "id": "287",
+                  "type": "custom-field-attribute",
+                  "attributes": {
+                    "field_type": "List",
+                    "label": "Product Squad",
+                    "internal": false,
+                    "required": false,
+                    "error_message": null,
+                    "helper_text": "Helping you out with this!",
+                    "configuration": "Infrastructure, Frontend, Backend",
+                    "checkbox_text": null,
+                    "regex": null,
+                    "created_at": "2013-01-01T00:00:00.000Z",
+                    "updated_at": "2013-01-01T00:00:00.000Z",
+                    "archived_at": null
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "automated_remediation_guidance": {
+        "data": {
+          "id": "1",
+          "type": "automated-remediation-guidance",
+          "attributes": {
+            "reference": "https://cwe.mitre.org/data/definitions/120.html",
+            "created_at": "2020-10-23T12:09:37.859Z"
+          }
+        }
+      },
+      "custom_remediation_guidance": {
+        "data": {
+          "id": "84",
+          "type": "custom-remediation-guidance",
+          "attributes": {
+            "message": "Check buffer boundaries if accessing the buffer in a loop and make sure you are not in danger of writing past the allocated space.",
+            "created_at": "2020-10-26T08:47:23.296Z"
+          },
+          "relationships": {
+            "author": {
+              "data": {
+                "id": "1338",
+                "type": "user",
+                "attributes": {
+                  "username": "api-example-2",
+                  "name": "API Example 2",
+                  "disabled": false,
+                  "created_at": "2020-10-22T011:22:05.402Z",
+                  "profile_picture": {
+                    "62x62": "/assets/avatars/default.png",
+                    "82x82": "/assets/avatars/default.png",
+                    "110x110": "/assets/avatars/default.png",
+                    "260x260": "/assets/avatars/default.png"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

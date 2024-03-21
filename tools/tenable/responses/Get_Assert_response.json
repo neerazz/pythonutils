@@ -1,0 +1,228 @@
+{
+    "id": "08b98faa-326a-4707-bf4f-a027a78a7a5b",
+    "has_agent": true,
+    "created_at": "2021-10-27T17:28:51.084Z",
+    "updated_at": "2022-01-19T15:52:07.793Z",
+    "first_seen": "2021-10-27T17:28:50.823Z",
+    "last_seen": "2022-01-19T15:50:58.926Z",
+    "last_scan_target": "10.132.4.42",
+    "last_authenticated_scan_date": "2022-01-19T15:50:58.926Z",
+    "last_licensed_scan_date": "2022-01-17T13:31:27.323Z",
+    "last_scan_id": "c79b5edb-b1d6-43f9-a0ce-dc7f6db420da",
+    "last_schedule_id": "template-855a1072-e076-f732-a21d-416a08eece44c42e24a8a5fce320",
+    "sources": [
+        {
+            "name": "NESSUS_AGENT",
+            "first_seen": "2021-10-27T17:28:50.823Z",
+            "last_seen": "2022-01-19T15:50:58.926Z"
+        }
+    ],
+    "tags": [
+        {
+            "tag_uuid": "e229103b-3f6f-4fb6-ad84-e65e7314f310",
+            "tag_key": "Miscellaneous",
+            "tag_value": "Workstations With Plugin Results",
+            "added_by": "1d804839-adfd-47e8-9cfd-ee22296ea159",
+            "added_at": "2021-12-09T12:39:40.172Z"
+        },
+        {
+            "tag_uuid": "d7205bd4-6e54-4d62-9e7a-a1e6fc6a9cd0",
+            "tag_key": "System Type",
+            "tag_value": "Workstations",
+            "added_by": "1d804839-adfd-47e8-9cfd-ee22296ea159",
+            "added_at": "2021-12-09T12:39:40.155Z"
+        },
+        {
+            "tag_uuid": "8fec9862-bf06-4350-8d08-44999df8e21a",
+            "tag_key": "Miscellaneous",
+            "tag_value": "Asset Assessed",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-12-09T12:39:40.067Z"
+        },
+        {
+            "tag_uuid": "5841e761-9813-48cd-9bec-ac028483a432",
+            "tag_key": "System Type",
+            "tag_value": "Windows Workstations",
+            "added_by": "1d804839-adfd-47e8-9cfd-ee22296ea159",
+            "added_at": "2021-12-09T12:39:39.976Z"
+        },
+        {
+            "tag_uuid": "efbbe5ab-7d6f-494e-98b9-a0c1cfc8f8d3",
+            "tag_key": "Domains",
+            "tag_value": "corp.wayfair.com",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-12-09T12:39:39.863Z"
+        },
+        {
+            "tag_uuid": "6be01328-1fbf-41fb-94fb-21b480627b46",
+            "tag_key": "Ownership",
+            "tag_value": "Endpoint & Collab Engineering",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-12-09T12:39:39.633Z"
+        },
+        {
+            "tag_uuid": "86b99f34-6b15-4316-b3b5-1673fb912d1f",
+            "tag_key": "Miscellaneous",
+            "tag_value": "Workstations by DNS",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-12-09T12:39:39.592Z"
+        },
+        {
+            "tag_uuid": "e0a1be0d-3113-43c6-987c-4e9b5eb2f846",
+            "tag_key": "Operating Systems",
+            "tag_value": "Microsoft Windows 10 Enterprise",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-12-09T12:39:39.430Z"
+        },
+        {
+            "tag_uuid": "5be698d7-18fd-4f24-9bb2-85ed4880bdce",
+            "tag_key": "Networks",
+            "tag_value": "Wayfair Offices",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-10-27T17:28:56.453Z"
+        },
+        {
+            "tag_uuid": "23dfd094-da01-44cf-bb65-0e291b457247",
+            "tag_key": "Source",
+            "tag_value": "Workstations",
+            "added_by": "1d804839-adfd-47e8-9cfd-ee22296ea159",
+            "added_at": "2021-10-27T17:28:56.415Z"
+        },
+        {
+            "tag_uuid": "a1fa14c8-89cd-4c40-a128-ca53eac748b7",
+            "tag_key": "Networks",
+            "tag_value": "Wayfair EU Offices",
+            "added_by": "5da3ed7c-9442-42e2-be38-6eeba9b0515d",
+            "added_at": "2021-10-27T17:28:56.199Z"
+        },
+        {
+            "tag_uuid": "619b3dd1-7461-4c77-849e-d86b539f5c43",
+            "tag_key": "Source",
+            "tag_value": "Nessus Agent",
+            "added_by": "1d804839-adfd-47e8-9cfd-ee22296ea159",
+            "added_at": "2021-10-27T17:28:56.090Z"
+        }
+    ],
+    "interfaces": [
+        {
+            "name": "7",
+            "aliased": false,
+            "fqdn": [],
+            "mac_address": [
+                "64:00:6a:84:48:a1"
+            ],
+            "ipv4": [
+                "10.132.4.42"
+            ],
+            "ipv6": []
+        },
+        {
+            "name": "UNKNOWN",
+            "fqdn": [
+                "dt19004.corp.wayfair.com"
+            ],
+            "mac_address": [
+                "64:00:6a:84:48:a1"
+            ],
+            "ipv4": [
+                "10.132.4.42"
+            ],
+            "ipv6": []
+        }
+    ],
+    "network_id": [
+        "00000000-0000-0000-0000-000000000000"
+    ],
+    "ipv4": [
+        "10.132.4.42"
+    ],
+    "ipv6": [],
+    "fqdn": [
+        "dt19004.corp.wayfair.com"
+    ],
+    "mac_address": [
+        "64:00:6a:84:48:a1"
+    ],
+    "netbios_name": [
+        "DT19004"
+    ],
+    "operating_system": [
+        "Microsoft Windows 10 Enterprise"
+    ],
+    "system_type": [
+        "general-purpose"
+    ],
+    "tenable_uuid": [
+        "68143cd97a114f088e19dd26d5ba7feb"
+    ],
+    "hostname": [
+        "dt19004"
+    ],
+    "agent_name": [
+        "dt19004"
+    ],
+    "bios_uuid": [
+        "4c4c4544-0052-5a10-8054-b9c04f544232"
+    ],
+    "aws_ec2_instance_id": [],
+    "aws_ec2_instance_ami_id": [],
+    "aws_owner_id": [],
+    "aws_availability_zone": [],
+    "aws_region": [],
+    "aws_vpc_id": [],
+    "aws_ec2_instance_group_name": [],
+    "aws_ec2_instance_state_name": [],
+    "aws_ec2_instance_type": [],
+    "aws_subnet_id": [],
+    "aws_ec2_product_code": [],
+    "aws_ec2_name": [],
+    "azure_vm_id": [],
+    "azure_resource_id": [],
+    "azure_subscription_id": [],
+    "azure_resource_group": [],
+    "azure_location": [],
+    "azure_type": [],
+    "gcp_project_id": [],
+    "gcp_zone": [],
+    "gcp_instance_id": [],
+    "ssh_fingerprint": [],
+    "mcafee_epo_guid": [],
+    "mcafee_epo_agent_guid": [],
+    "qualys_asset_id": [],
+    "qualys_host_id": [],
+    "servicenow_sysid": [],
+    "installed_software": [
+        "cpe:/a:adobe:acrobat_reader:19.8.20081.308281",
+        "cpe:/a:cisco:anyconnect_secure_mobility_client:4.6.4056.0",
+        "cpe:/a:microsoft:.net_framework:2.0.50727",
+        "cpe:/a:microsoft:.net_framework:3.0",
+        "cpe:/a:microsoft:.net_framework:3.5",
+        "cpe:/a:microsoft:.net_framework:4.8",
+        "cpe:/a:microsoft:ie:11.1411.18362.0",
+        "cpe:/a:microsoft:remote_desktop_connection:10.0.18362.1316",
+        "cpe:/a:microsoft:sql_server_management_studio:2017.140.17119.0",
+        "cpe:/a:microsoft:windows_defender:4.18.1902.5",
+        "cpe:/a:google:chrome:96.0.4664.110",
+        "cpe:/a:tenable:nessus_agent:10.0.1",
+        "cpe:/a:microsoft:edge:96.0.1054.62",
+        "cpe:/a:microsoft:remote_desktop_connection:10.0.18362.1832",
+        "cpe:/a:microsoft:edge:97.0.1072.55",
+        "cpe:/a:google:chrome:97.0.4692.71",
+        "cpe:/a:microsoft:edge:97.0.1072.62"
+    ],
+    "bigfix_asset_id": [],
+    "security_protection_level": 1,
+    "security_protections": [
+        {
+            "id": "6267619564df229201639f0a28c0e921",
+            "cpe": "cpe:2.3:a:microsoft:windows_defender:4.18.1902.5:-:-:-:-:-:-:-",
+            "version": "4.18.1902.5",
+            "vendor_name": "Microsoft",
+            "product_name": "Windows Defender",
+            "form_factor": "EPP_EDR",
+            "disposition": "SYSTEM_DEFINED",
+            "updated_at": 1642426296694
+        }
+    ],
+    "exposure_confidence_value": null
+}

@@ -1,0 +1,145 @@
+{
+  "id": 356147,
+  "images": [
+    {
+      "base64": "string",
+      "caption": "string",
+      "id": 0
+    }
+  ],
+  "tags": [
+    "string"
+  ],
+  "accepted_risks": [
+    {
+      "id": 0,
+      "name": "string",
+      "path": "string",
+      "accepted_by": "string",
+      "expiration_date": "2022-02-07T21:57:44.241Z",
+      "compensating_control": "string",
+      "created": "2022-02-07T21:57:44.241Z",
+      "updated": "2022-02-07T21:57:44.241Z",
+      "owner": 0,
+      "accepted_findings": [
+        0
+      ],
+      "notes": [
+        0
+      ]
+    }
+  ],
+  "push_to_jira": false,
+  "age": 14,
+  "sla_days_remaining": 76,
+  "title": "1 - No CVE on File - React-Dom:16",
+  "date": "2022-01-24",
+  "cwe": 0,
+  "cve": "No CVE on file",
+  "url": "string",
+  "severity": "Medium",
+  "description": "React applications which rendered to HTML using the ReactDOMServer API were not escaping user-supplied attribute names at render-time. That lack of escaping could lead to a cross-site scripting vulnerability. This issue affected minor releases 16.0.x, 16.1.x, 16.2.x, 16.3.x, and 16.4.x. It was fixed in 16.0.1, 16.1.2, 16.2.1, 16.3.3, and 16.4.2.\n\nVersions that are vulnerable:\n\n16",
+  "mitigation": "Versions containing a fix:\n[16.0.1]</br>[16.1.2]</br>[16.2.1]</br>[16.3.3]</br>[16.4.2]",
+  "impact": "Medium",
+  "steps_to_reproduce": "string",
+  "severity_justification": "CVSS v3 base score: \nCVSS v2 base score: ",
+  "references": "JFrog",
+  "is_template": false,
+  "active": true,
+  "verified": true,
+  "false_p": false,
+  "duplicate": false,
+  "out_of_scope": false,
+  "under_review": false,
+  "under_defect_review": false,
+  "is_Mitigated": false,
+  "thread_id": 0,
+  "mitigated": "2022-02-07T21:57:44.241Z",
+  "numerical_severity": "string",
+  "last_reviewed": "2022-02-07T21:57:44.241Z",
+  "line_number": "string",
+  "sourcefilepath": "string",
+  "sourcefile": "string",
+  "param": "string",
+  "payload": "string",
+  "hash_code": "string",
+  "line": 0,
+  "file_path": "",
+  "component_name": "react-dom:16",
+  "component_version": "",
+  "static_finding": true,
+  "dynamic_finding": false,
+  "created": "2022-01-25T00:01:15.473763Z",
+  "jira_creation": "2022-01-25T00:01:15.505964Z",
+  "jira_change": "2022-02-03T16:16:12.682867Z",
+  "scanner_confidence": 0,
+  "unique_id_from_tool": "string",
+  "sast_source_object": "string",
+  "sast_sink_object": "string",
+  "sast_source_line": 0,
+  "sast_source_file_path": "string",
+  "nb_occurences": 0,
+  "test": 0,
+  "duplicate_finding": 0,
+  "review_requested_by": 0,
+  "defect_review_requested_by": 0,
+  "mitigated_by": 0,
+  "reporter": 0,
+  "last_reviewed_by": 0,
+  "sonarqube_issue": 0,
+  "endpoints": [
+    0
+  ],
+  "endpoint_status": [
+    0
+  ],
+  "reviewers": [
+    0
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "author": {
+        "id": 0,
+        "username": "string",
+        "first_name": "string",
+        "last_name": "string",
+        "email": "user@example.com",
+        "last_login": "2022-02-07T21:57:44.241Z"
+      },
+      "editor": {
+        "id": 0,
+        "username": "string",
+        "first_name": "string",
+        "last_name": "string",
+        "email": "user@example.com",
+        "last_login": "2022-02-07T21:57:44.241Z"
+      },
+      "history": [
+        {
+          "id": 0,
+          "current_editor": {
+            "id": 0,
+            "username": "string",
+            "first_name": "string",
+            "last_name": "string",
+            "email": "user@example.com",
+            "last_login": "2022-02-07T21:57:44.241Z"
+          },
+          "data": "string",
+          "time": "2022-02-07T21:57:44.241Z",
+          "note_type": 0
+        }
+      ],
+      "entry": "string",
+      "date": "2022-02-07T21:57:44.241Z",
+      "private": true,
+      "edited": true,
+      "edit_time": "2022-02-07T21:57:44.241Z",
+      "note_type": 0
+    }
+  ],
+  "found_by": [
+    0
+  ]
+}

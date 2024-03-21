@@ -1,0 +1,48 @@
+{
+  "id": 0,
+  "findings_count": "string",
+  "findings_list": [
+    338340,
+    338341,
+    338342,
+    338343,
+    338344,
+    338346,
+    338347,
+    338348,
+    338349,
+    338350,
+    338351
+  ],
+  "tags": [
+    "string"
+  ],
+  "product_meta": [
+    {
+      "name": "string",
+      "value": "string"
+    }
+  ],
+  "name": "string",
+  "description": "string",
+  "created": "2022-02-07T19:50:56.957Z",
+  "prod_numeric_grade": 0,
+  "business_criticality": "very high",
+  "platform": "web service",
+  "lifecycle": "construction",
+  "origin": "third party library",
+  "user_records": 0,
+  "revenue": "string",
+  "external_audience": true,
+  "internet_accessible": true,
+  "product_manager": 0,
+  "technical_contact": 0,
+  "team_manager": 0,
+  "prod_type": 0,
+  "authorized_users": [
+    0
+  ],
+  "regulations": [
+    0
+  ]
+}

@@ -1,0 +1,1758 @@
+{
+  "vulnerabilities": [
+    {
+      "count": 64,
+      "plugin_family": "Port scanners",
+      "plugin_id": 34220,
+      "plugin_name": "Netstat Portscanner (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 64,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 31,
+      "plugin_family": "Windows",
+      "plugin_id": 34252,
+      "plugin_name": "Microsoft Windows Remote Listeners Enumeration (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 31,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 10395,
+      "plugin_name": "Microsoft Windows SMB Shares Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 10396,
+      "plugin_name": "Microsoft Windows SMB Shares Access",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 10400,
+      "plugin_name": "Microsoft Windows SMB Registry Remotely Accessible",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 10456,
+      "plugin_name": "Microsoft Windows SMB Service Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 10859,
+      "plugin_name": "Microsoft Windows SMB LsaQueryInformationPolicy Function SID Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : User management",
+      "plugin_id": 10902,
+      "plugin_name": "Microsoft Windows 'Administrators' Group User List",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 11457,
+      "plugin_name": "Microsoft Windows SMB Registry : Winlogon Cached Password Weakness",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 11777,
+      "plugin_name": "Microsoft Windows SMB Share Hosting Possibly Copyrighted Material",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "General",
+      "plugin_id": 11936,
+      "plugin_name": "OS Identification",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : User management",
+      "plugin_id": 17651,
+      "plugin_name": "Microsoft Windows SMB : Obtains the Password Policy",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Settings",
+      "plugin_id": 19506,
+      "plugin_name": "Nessus Scan Information",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 20811,
+      "plugin_name": "Microsoft Windows Installed Software Enumeration (credentialed check)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 23974,
+      "plugin_name": "Microsoft Windows SMB Share Hosting Office Files",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 24269,
+      "plugin_name": "WMI Available",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 24270,
+      "plugin_name": "Computer Manufacturer Information (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 24272,
+      "plugin_name": "Network Interfaces Enumeration (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 25197,
+      "plugin_name": "Windows Wireless SSID (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 28211,
+      "plugin_name": "Flash Player Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 34096,
+      "plugin_name": "BIOS Info (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 34196,
+      "plugin_name": "Google Chrome Detection (Windows)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 35453,
+      "plugin_name": "Microsoft Windows Update Reboot Required",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 3
+        }
+      ],
+      "cvss_base_score": 7.2,
+      "cvss3_base_score": 0.0,
+      "severity": 3
+    },
+    {
+      "count": 1,
+      "plugin_family": "Misc.",
+      "plugin_id": 35716,
+      "plugin_name": "Ethernet Card Manufacturer Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : Microsoft Bulletins",
+      "plugin_id": 38153,
+      "plugin_name": "Microsoft Windows Summary of Missing Patches",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 38689,
+      "plugin_name": "Microsoft Windows SMB Last Logged On User Disclosure",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 43830,
+      "plugin_name": "WMI Bluetooth Network Adapter Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 44401,
+      "plugin_name": "Microsoft Windows SMB Service Config Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 44871,
+      "plugin_name": "WMI Windows Feature Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 45051,
+      "plugin_name": "WMI Antivirus Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "General",
+      "plugin_id": 45590,
+      "plugin_name": "Common Platform Enumeration (CPE)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 48337,
+      "plugin_name": "Windows ComputerSystemProduct Enumeration (WMI)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 48763,
+      "plugin_name": "Microsoft Windows 'CWDIllegalInDllSearch' Registry Setting",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 48942,
+      "plugin_name": "Microsoft Windows SMB Registry : OS Version and Processor Architecture",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 50346,
+      "plugin_name": "Microsoft Update Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 51186,
+      "plugin_name": "WMI Trusted Platform Module Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 51187,
+      "plugin_name": "WMI Encryptable Volume Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 51351,
+      "plugin_name": "Microsoft .NET Framework Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 52001,
+      "plugin_name": "WMI QuickFixEngineering (QFE) Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 54953,
+      "plugin_name": "Cisco AnyConnect Secure Mobility Client Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "General",
+      "plugin_id": 55472,
+      "plugin_name": "Device Hostname",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : Microsoft Bulletins",
+      "plugin_id": 57033,
+      "plugin_name": "Microsoft Patch Bulletin Feasibility Check",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 58181,
+      "plugin_name": "Windows DNS Server Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 58452,
+      "plugin_name": "Microsoft Windows Startup Software Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 59196,
+      "plugin_name": "Adobe Flash Player Unsupported Version Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 4
+        }
+      ],
+      "cvss_base_score": 10.0,
+      "cvss3_base_score": 0.0,
+      "severity": 4
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 62042,
+      "plugin_name": "SMB QuickFixEngineering (QFE) Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 63080,
+      "plugin_name": "Microsoft Windows Mounted Devices",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 63620,
+      "plugin_name": "Windows Product Key Retrieval",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "General",
+      "plugin_id": 64582,
+      "plugin_name": "Netstat Connection Information",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "General",
+      "plugin_id": 66334,
+      "plugin_name": "Patch Report",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 66350,
+      "plugin_name": "Microsoft Windows Wireless Network History",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 66424,
+      "plugin_name": "Microsoft Malicious Software Removal Tool Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 70329,
+      "plugin_name": "Microsoft Windows Process Information",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 70331,
+      "plugin_name": "Microsoft Windows Process Module Information",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 72367,
+      "plugin_name": "Microsoft Internet Explorer Version Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 72482,
+      "plugin_name": "Windows Display Driver Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 76056,
+      "plugin_name": "Microsoft Internet Explorer Enhanced Protection Mode (EPM) Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 77668,
+      "plugin_name": "Windows Prefetch Folder",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 85736,
+      "plugin_name": "Windows Store Application Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92364,
+      "plugin_name": "Microsoft Windows Environment Variables",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92365,
+      "plugin_name": "Microsoft Windows Hosts File",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92366,
+      "plugin_name": "Microsoft Windows Last Boot Time",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92367,
+      "plugin_name": "Microsoft Windows PowerShell Execution Policy",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92368,
+      "plugin_name": "Microsoft Windows Scripting Host Settings",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92369,
+      "plugin_name": "Microsoft Windows Time Zone Information",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92370,
+      "plugin_name": "Microsoft Windows ARP Table",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92372,
+      "plugin_name": "Microsoft Windows NetBIOS over TCP/IP Info",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92415,
+      "plugin_name": "Application Compatibility Cache",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92421,
+      "plugin_name": "Internet Explorer Typed URLs",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92423,
+      "plugin_name": "Windows Explorer Recently Executed Programs",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92424,
+      "plugin_name": "MUICache Program Execution History",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92426,
+      "plugin_name": "OpenSaveMRU History",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92428,
+      "plugin_name": "Recent File History",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92429,
+      "plugin_name": "Recycle Bin Files",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92431,
+      "plugin_name": "User Shell Folders Settings",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92434,
+      "plugin_name": "User Download Folder Files",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 92435,
+      "plugin_name": "UserAssist Execution History",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 93962,
+      "plugin_name": "Microsoft Security Rollup Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 96533,
+      "plugin_name": "Chrome Browser Extension Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 100574,
+      "plugin_name": "Tenable Windows Nessus Agent Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 103871,
+      "plugin_name": "Microsoft Windows Network Adapters",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 112153,
+      "plugin_name": "Microsoft Edge Browser Installed (Windows)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Settings",
+      "plugin_id": 117887,
+      "plugin_name": "OS Security Patch Assessment Available",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 125835,
+      "plugin_name": "Microsoft Remote Desktop Connection Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 131023,
+      "plugin_name": "Windows Defender Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 132101,
+      "plugin_name": "Windows Speculative Execution Configuration Check",
+      "vulnerability_state": "New",
+      "vpr_score": 8.5,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 2
+        }
+      ],
+      "cvss_base_score": 5.4,
+      "cvss3_base_score": 6.4,
+      "severity": 2
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 136969,
+      "plugin_name": "Microsoft Edge Chromium Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 138603,
+      "plugin_name": "Microsoft OneDrive Installed",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 139239,
+      "plugin_name": "Windows Security Feature Bypass in Secure Boot (BootHole)",
+      "vulnerability_state": "New",
+      "vpr_score": 8.9,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 3
+        }
+      ],
+      "cvss_base_score": 7.2,
+      "cvss3_base_score": 8.2,
+      "severity": 3
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 139785,
+      "plugin_name": "DISM Package List (Windows)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 140596,
+      "plugin_name": "Microsoft Windows WebP Image Extention RCE (August 2020)",
+      "vulnerability_state": "New",
+      "vpr_score": 5.9,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 3
+        }
+      ],
+      "cvss_base_score": 6.9,
+      "cvss3_base_score": 7.3,
+      "severity": 3
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 140633,
+      "plugin_name": "CrowdStrike Falcon Sensor Installed (Windows)",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 148541,
+      "plugin_name": "Windows Language Settings Detection",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Misc.",
+      "plugin_id": 150807,
+      "plugin_name": "Cisco AnyConnect Secure Mobility Client for Windows Denial of Service Vulnerability (cisco-sa-anyconnect-dos-hMhyDfb8)",
+      "vulnerability_state": "New",
+      "vpr_score": 3.6,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 2
+        }
+      ],
+      "cvss_base_score": 2.1,
+      "cvss3_base_score": 5.5,
+      "severity": 2
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : Microsoft Bulletins",
+      "plugin_id": 154986,
+      "plugin_name": "KB5007186:  Windows 10 Version 2004 / Windows 10 Version 20H2 / Windows 10 Version 21H1 (November 2021) ",
+      "vulnerability_state": "New",
+      "vpr_score": 9.7,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 4
+        }
+      ],
+      "cvss_base_score": 7.7,
+      "cvss3_base_score": 9.0,
+      "severity": 4
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows",
+      "plugin_id": 155963,
+      "plugin_name": "Windows Printer Driver Enumeration",
+      "vulnerability_state": "New",
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 0
+        }
+      ],
+      "cvss_base_score": 0.0,
+      "cvss3_base_score": 0.0,
+      "severity": 0
+    },
+    {
+      "count": 1,
+      "plugin_family": "Windows : Microsoft Bulletins",
+      "plugin_id": 156617,
+      "plugin_name": "KB5009543: Windows 10 Version 20H2 / Windows 10 Version 21H1 / Windows 10 Version 21H2 Security Update (January 2022) ",
+      "vulnerability_state": "New",
+      "vpr_score": 9.6,
+      "accepted_count": 0,
+      "recasted_count": 0,
+      "counts_by_severity": [
+        {
+          "count": 1,
+          "value": 4
+        }
+      ],
+      "cvss_base_score": 10.0,
+      "cvss3_base_score": 9.8,
+      "severity": 4
+    }
+  ],
+  "total_vulnerability_count": 190,
+  "total_asset_count": 0
+}

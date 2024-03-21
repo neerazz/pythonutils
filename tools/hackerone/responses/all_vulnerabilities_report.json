@@ -1,0 +1,393 @@
+{
+  "data": {
+    "id": "1468598",
+    "type": "report",
+    "attributes": {
+      "title": "RXSS ",
+      "state": "triaged",
+      "created_at": "2022-02-02T17:56:30.358Z",
+      "vulnerability_information": "Hi team,\n\nFor understanding the context of the vulnerability we need to understand Akamai cdn's routing system which allocates IP addresses for their client. So when a client uses akamai CDN akamai assigns an IP address to the respective organization. (https://learn.akamai.com/en-us/webhelp/client-access-control/client-access-control-user-guide/GUID-453BB6D2-36B9-4CE8-9F3A-D2CB47008B13.html)\n\nSSL: https://www.shodan.io/host/23.211.206.46\n\nSubject: C=US, ST=MASSACHUSETTS, L=Boston, O=Wayfair, LLC\n\nPOC: \n```\nhttp://23.211.206.46/7/0/33/1d/www.citysearch.com/search?what=x\u0026where=place%22%3E%3Csvg+onload=confirm(document.domain)%3E\n```\n\n## Impact\n\nAn attacker can perform an XSS attack.\n\nRegards,\n@hrithikbot",
+      "triaged_at": "2022-02-03T16:40:49.021Z",
+      "closed_at": null,
+      "last_reporter_activity_at": "2022-02-02T17:56:30.603Z",
+      "first_program_activity_at": "2022-02-03T16:40:49.021Z",
+      "last_program_activity_at": "2022-02-03T16:41:04.805Z",
+      "bounty_awarded_at": "2022-02-03T16:41:04.805Z",
+      "swag_awarded_at": null,
+      "disclosed_at": null,
+      "reporter_agreed_on_going_public_at": null,
+      "issue_tracker_reference_id": "SAPPS-1287",
+      "last_public_activity_at": "2022-02-03T16:41:04.805Z",
+      "last_activity_at": "2022-02-03T16:41:04.805Z",
+      "cve_ids": [],
+      "source": null,
+      "timer_bounty_awarded_elapsed_time": 15,
+      "timer_bounty_awarded_miss_at": "2022-03-17T16:40:49.021Z",
+      "timer_first_program_response_miss_at": "2022-02-07T17:56:30.603Z",
+      "timer_first_program_response_elapsed_time": 81858,
+      "timer_report_resolved_miss_at": "2022-02-02T17:56:30.603Z",
+      "timer_report_resolved_elapsed_time": null,
+      "timer_report_triage_miss_at": "2022-02-10T17:56:30.603Z",
+      "timer_report_triage_elapsed_time": 81858
+    },
+    "relationships": {
+      "reporter": {
+        "data": {
+          "id": "683824",
+          "type": "user",
+          "attributes": {
+            "reputation": 3293,
+            "signal": 5.76158940397351,
+            "impact": 12.865853658536585,
+            "username": "hrithikbot",
+            "name": "Hrithik Mishra",
+            "disabled": false,
+            "created_at": "2019-07-21T18:42:42.926Z",
+            "profile_picture": {
+              "62x62": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/2lvwspaozmdhdzzfk9l5qqdxyxfy/43e4513b9104ea0d68c9c096cea374ba8440dde3e027af5465c8771e8839a67c?response-content-disposition=inline%3B%20filename%3D%22IMG-20201216-WA0038-01.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG-20201216-WA0038-01.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ASIAQGK6FURQU76VLYHZ%2F20220204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20220204T203631Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJHMEUCIBJsxNGJelsmDXvyNSAOzEUAcrxFzbHVbAd2bDsC5AZJAiEA%2Bkv5zdbMgdqUkXk2amw1MAmMO4E2MNHjK3uszvHbEUIqgwQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwMTM2MTkyNzQ4NDkiDL3KnjWggkVapSGxYSrXAxX%2BH9NKVXSkJT0whtFU%2Frg%2FSMrkgrLzQ7qZSmqNbBd6rWnte3%2FD8aX4%2BLHiRm7pvdoQ8PRenkzg9NIprU0Fbes3PGTNAL7PdNuMFr5QB5iEzNrPBh500V%2BL0UMpYjPb3Er1F2BXZGlGM8wsvRFsfw65MSVcgYh5obxqsCUKYm4IrWqfuvwDQl2oO%2FaR6u6bRBQTOucOIXsvhQS1gcmSwWTd71XQZT7GzwqxE6l%2Bw771c080pL8lnicMsJKQPP5OwJEu0j2RwNdOBrdzdWfv5udvQu4b5HFrT8Ap%2FDhiCnx0uAJ6MzaIQtQALeqyl09qB9zN6%2Bzcl6dUWBZsbbBuhQ43X9YG6DkFCuO5qg9aNJv0oVWMG2jtAYp0qPA6TGcSN3Fff2k95dFXoRiA5jFKcxcmTXIcRNhzllOuo7Sc9lKrhAB%2FA72Ge0RnvsvUzcSh8wTFhMqxWRrlfWNd6uR4UyHB7XWgrU3zQvvxiah8EAqMCNrjpef5C0uP%2FbWHZEzmSizf3xDmwDtS2bgDfX0b1WPLTIY9vbcCy3Y%2B8lEAOWlnpB6O6gOoHOFzq8PkKcjUjTU3ax2gJfIxcOf9QjTm8rMZJgoSztZRSOymdbgSGfkq3GU8Tt19djCujfaPBjqlASMQshntDUt7gV1je02n%2FKm9bME%2FM74o7bKtHsEt2WWGWV0P9KfeJsFy0EpPWQvsOOrQnTcg5edLkwre1t4LozmSZY99OHx8iBaw7thyKlDO8x2zd23lefcX7IDf5CAGDC44%2Fr287C3OffJrx9KhZaqcGHKBcVZwl5d6%2BbByxyX26gL8RyZQ%2BRos0Qe0Nhn%2B9V9Tb6Fv35aGg6cJAsPTqt94c49kow%3D%3D\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d9775e8da17f8cf73c499589389ea4ea6bd139aae1dfbcf09c1575a38a2a3826",
+              "82x82": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/2lvwspaozmdhdzzfk9l5qqdxyxfy/fd4ecbe1e3e98c343c7717114485ace2f830f9253103d3cfa7502059868c516c?response-content-disposition=inline%3B%20filename%3D%22IMG-20201216-WA0038-01.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG-20201216-WA0038-01.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ASIAQGK6FURQU76VLYHZ%2F20220204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20220204T203631Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJHMEUCIBJsxNGJelsmDXvyNSAOzEUAcrxFzbHVbAd2bDsC5AZJAiEA%2Bkv5zdbMgdqUkXk2amw1MAmMO4E2MNHjK3uszvHbEUIqgwQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwMTM2MTkyNzQ4NDkiDL3KnjWggkVapSGxYSrXAxX%2BH9NKVXSkJT0whtFU%2Frg%2FSMrkgrLzQ7qZSmqNbBd6rWnte3%2FD8aX4%2BLHiRm7pvdoQ8PRenkzg9NIprU0Fbes3PGTNAL7PdNuMFr5QB5iEzNrPBh500V%2BL0UMpYjPb3Er1F2BXZGlGM8wsvRFsfw65MSVcgYh5obxqsCUKYm4IrWqfuvwDQl2oO%2FaR6u6bRBQTOucOIXsvhQS1gcmSwWTd71XQZT7GzwqxE6l%2Bw771c080pL8lnicMsJKQPP5OwJEu0j2RwNdOBrdzdWfv5udvQu4b5HFrT8Ap%2FDhiCnx0uAJ6MzaIQtQALeqyl09qB9zN6%2Bzcl6dUWBZsbbBuhQ43X9YG6DkFCuO5qg9aNJv0oVWMG2jtAYp0qPA6TGcSN3Fff2k95dFXoRiA5jFKcxcmTXIcRNhzllOuo7Sc9lKrhAB%2FA72Ge0RnvsvUzcSh8wTFhMqxWRrlfWNd6uR4UyHB7XWgrU3zQvvxiah8EAqMCNrjpef5C0uP%2FbWHZEzmSizf3xDmwDtS2bgDfX0b1WPLTIY9vbcCy3Y%2B8lEAOWlnpB6O6gOoHOFzq8PkKcjUjTU3ax2gJfIxcOf9QjTm8rMZJgoSztZRSOymdbgSGfkq3GU8Tt19djCujfaPBjqlASMQshntDUt7gV1je02n%2FKm9bME%2FM74o7bKtHsEt2WWGWV0P9KfeJsFy0EpPWQvsOOrQnTcg5edLkwre1t4LozmSZY99OHx8iBaw7thyKlDO8x2zd23lefcX7IDf5CAGDC44%2Fr287C3OffJrx9KhZaqcGHKBcVZwl5d6%2BbByxyX26gL8RyZQ%2BRos0Qe0Nhn%2B9V9Tb6Fv35aGg6cJAsPTqt94c49kow%3D%3D\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=5d2aae726c980d241cce482b764fbbe90667f2e11a2fb60d935d5d0439fe0d87",
+              "110x110": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/2lvwspaozmdhdzzfk9l5qqdxyxfy/eff408a051aa170ba079e951257ae8ad2ca7581dfca95a897d3e98766a0100c4?response-content-disposition=inline%3B%20filename%3D%22IMG-20201216-WA0038-01.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG-20201216-WA0038-01.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ASIAQGK6FURQU76VLYHZ%2F20220204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20220204T203631Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJHMEUCIBJsxNGJelsmDXvyNSAOzEUAcrxFzbHVbAd2bDsC5AZJAiEA%2Bkv5zdbMgdqUkXk2amw1MAmMO4E2MNHjK3uszvHbEUIqgwQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwMTM2MTkyNzQ4NDkiDL3KnjWggkVapSGxYSrXAxX%2BH9NKVXSkJT0whtFU%2Frg%2FSMrkgrLzQ7qZSmqNbBd6rWnte3%2FD8aX4%2BLHiRm7pvdoQ8PRenkzg9NIprU0Fbes3PGTNAL7PdNuMFr5QB5iEzNrPBh500V%2BL0UMpYjPb3Er1F2BXZGlGM8wsvRFsfw65MSVcgYh5obxqsCUKYm4IrWqfuvwDQl2oO%2FaR6u6bRBQTOucOIXsvhQS1gcmSwWTd71XQZT7GzwqxE6l%2Bw771c080pL8lnicMsJKQPP5OwJEu0j2RwNdOBrdzdWfv5udvQu4b5HFrT8Ap%2FDhiCnx0uAJ6MzaIQtQALeqyl09qB9zN6%2Bzcl6dUWBZsbbBuhQ43X9YG6DkFCuO5qg9aNJv0oVWMG2jtAYp0qPA6TGcSN3Fff2k95dFXoRiA5jFKcxcmTXIcRNhzllOuo7Sc9lKrhAB%2FA72Ge0RnvsvUzcSh8wTFhMqxWRrlfWNd6uR4UyHB7XWgrU3zQvvxiah8EAqMCNrjpef5C0uP%2FbWHZEzmSizf3xDmwDtS2bgDfX0b1WPLTIY9vbcCy3Y%2B8lEAOWlnpB6O6gOoHOFzq8PkKcjUjTU3ax2gJfIxcOf9QjTm8rMZJgoSztZRSOymdbgSGfkq3GU8Tt19djCujfaPBjqlASMQshntDUt7gV1je02n%2FKm9bME%2FM74o7bKtHsEt2WWGWV0P9KfeJsFy0EpPWQvsOOrQnTcg5edLkwre1t4LozmSZY99OHx8iBaw7thyKlDO8x2zd23lefcX7IDf5CAGDC44%2Fr287C3OffJrx9KhZaqcGHKBcVZwl5d6%2BbByxyX26gL8RyZQ%2BRos0Qe0Nhn%2B9V9Tb6Fv35aGg6cJAsPTqt94c49kow%3D%3D\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=00901e626a0d110f6484014fe511758237202a835ef232a9337c76ea9b2e097d",
+              "260x260": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/variants/2lvwspaozmdhdzzfk9l5qqdxyxfy/c11036e2d3f8b05af4b5da5984ccdec6f786b763c8abceb4e68042e10dcdae85?response-content-disposition=inline%3B%20filename%3D%22IMG-20201216-WA0038-01.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG-20201216-WA0038-01.jpeg\u0026response-content-type=image%2Fjpeg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ASIAQGK6FURQU76VLYHZ%2F20220204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20220204T203631Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJHMEUCIBJsxNGJelsmDXvyNSAOzEUAcrxFzbHVbAd2bDsC5AZJAiEA%2Bkv5zdbMgdqUkXk2amw1MAmMO4E2MNHjK3uszvHbEUIqgwQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwMTM2MTkyNzQ4NDkiDL3KnjWggkVapSGxYSrXAxX%2BH9NKVXSkJT0whtFU%2Frg%2FSMrkgrLzQ7qZSmqNbBd6rWnte3%2FD8aX4%2BLHiRm7pvdoQ8PRenkzg9NIprU0Fbes3PGTNAL7PdNuMFr5QB5iEzNrPBh500V%2BL0UMpYjPb3Er1F2BXZGlGM8wsvRFsfw65MSVcgYh5obxqsCUKYm4IrWqfuvwDQl2oO%2FaR6u6bRBQTOucOIXsvhQS1gcmSwWTd71XQZT7GzwqxE6l%2Bw771c080pL8lnicMsJKQPP5OwJEu0j2RwNdOBrdzdWfv5udvQu4b5HFrT8Ap%2FDhiCnx0uAJ6MzaIQtQALeqyl09qB9zN6%2Bzcl6dUWBZsbbBuhQ43X9YG6DkFCuO5qg9aNJv0oVWMG2jtAYp0qPA6TGcSN3Fff2k95dFXoRiA5jFKcxcmTXIcRNhzllOuo7Sc9lKrhAB%2FA72Ge0RnvsvUzcSh8wTFhMqxWRrlfWNd6uR4UyHB7XWgrU3zQvvxiah8EAqMCNrjpef5C0uP%2FbWHZEzmSizf3xDmwDtS2bgDfX0b1WPLTIY9vbcCy3Y%2B8lEAOWlnpB6O6gOoHOFzq8PkKcjUjTU3ax2gJfIxcOf9QjTm8rMZJgoSztZRSOymdbgSGfkq3GU8Tt19djCujfaPBjqlASMQshntDUt7gV1je02n%2FKm9bME%2FM74o7bKtHsEt2WWGWV0P9KfeJsFy0EpPWQvsOOrQnTcg5edLkwre1t4LozmSZY99OHx8iBaw7thyKlDO8x2zd23lefcX7IDf5CAGDC44%2Fr287C3OffJrx9KhZaqcGHKBcVZwl5d6%2BbByxyX26gL8RyZQ%2BRos0Qe0Nhn%2B9V9Tb6Fv35aGg6cJAsPTqt94c49kow%3D%3D\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=f3c781486fd5da81125b7939b27bf363047dd2ab571219738d93f7515f724965"
+            },
+            "bio": "",
+            "website": null,
+            "location": "Mumbai",
+            "hackerone_triager": false
+          }
+        }
+      },
+      "program": {
+        "data": {
+          "id": "10168",
+          "type": "program",
+          "attributes": {
+            "handle": "wayfair",
+            "created_at": "2016-03-17T14:58:32.825Z",
+            "updated_at": "2022-02-04T09:12:09.772Z"
+          }
+        }
+      },
+      "severity": {
+        "data": {
+          "id": "1382420",
+          "type": "severity",
+          "attributes": {
+            "rating": "low",
+            "author_type": "User",
+            "user_id": 683824,
+            "created_at": "2022-02-02T17:56:30.420Z"
+          }
+        }
+      },
+      "swag": {
+        "data": []
+      },
+      "attachments": {
+        "data": [
+          {
+            "id": "1603135",
+            "type": "attachment",
+            "attributes": {
+              "expiring_url": "https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/43ya901v04ub6ru6s5y897076em2?response-content-disposition=inline%3B%20filename%3D%22rxsswa.png%22%3B%20filename%2A%3DUTF-8%27%27rxsswa.png\u0026response-content-type=image%2Fpng\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=ASIAQGK6FURQU76VLYHZ%2F20220204%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20220204T203631Z\u0026X-Amz-Expires=3600\u0026X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCXVzLXdlc3QtMiJHMEUCIBJsxNGJelsmDXvyNSAOzEUAcrxFzbHVbAd2bDsC5AZJAiEA%2Bkv5zdbMgdqUkXk2amw1MAmMO4E2MNHjK3uszvHbEUIqgwQIlf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwMTM2MTkyNzQ4NDkiDL3KnjWggkVapSGxYSrXAxX%2BH9NKVXSkJT0whtFU%2Frg%2FSMrkgrLzQ7qZSmqNbBd6rWnte3%2FD8aX4%2BLHiRm7pvdoQ8PRenkzg9NIprU0Fbes3PGTNAL7PdNuMFr5QB5iEzNrPBh500V%2BL0UMpYjPb3Er1F2BXZGlGM8wsvRFsfw65MSVcgYh5obxqsCUKYm4IrWqfuvwDQl2oO%2FaR6u6bRBQTOucOIXsvhQS1gcmSwWTd71XQZT7GzwqxE6l%2Bw771c080pL8lnicMsJKQPP5OwJEu0j2RwNdOBrdzdWfv5udvQu4b5HFrT8Ap%2FDhiCnx0uAJ6MzaIQtQALeqyl09qB9zN6%2Bzcl6dUWBZsbbBuhQ43X9YG6DkFCuO5qg9aNJv0oVWMG2jtAYp0qPA6TGcSN3Fff2k95dFXoRiA5jFKcxcmTXIcRNhzllOuo7Sc9lKrhAB%2FA72Ge0RnvsvUzcSh8wTFhMqxWRrlfWNd6uR4UyHB7XWgrU3zQvvxiah8EAqMCNrjpef5C0uP%2FbWHZEzmSizf3xDmwDtS2bgDfX0b1WPLTIY9vbcCy3Y%2B8lEAOWlnpB6O6gOoHOFzq8PkKcjUjTU3ax2gJfIxcOf9QjTm8rMZJgoSztZRSOymdbgSGfkq3GU8Tt19djCujfaPBjqlASMQshntDUt7gV1je02n%2FKm9bME%2FM74o7bKtHsEt2WWGWV0P9KfeJsFy0EpPWQvsOOrQnTcg5edLkwre1t4LozmSZY99OHx8iBaw7thyKlDO8x2zd23lefcX7IDf5CAGDC44%2Fr287C3OffJrx9KhZaqcGHKBcVZwl5d6%2BbByxyX26gL8RyZQ%2BRos0Qe0Nhn%2B9V9Tb6Fv35aGg6cJAsPTqt94c49kow%3D%3D\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=597cf1f336ec48d0bb0c7e305149c8281fb45db7d4f50874d36397e5f81932d9",
+              "created_at": "2022-02-02T17:55:47.057Z",
+              "file_name": "rxsswa.png",
+              "content_type": "image/png",
+              "file_size": 70240
+            }
+          }
+        ]
+      },
+      "weakness": {
+        "data": {
+          "id": "61",
+          "type": "weakness",
+          "attributes": {
+            "name": "Cross-site Scripting (XSS) - Reflected",
+            "description": "The server reads data directly from the HTTP request and reflects it back in the HTTP response. Reflected XSS exploits occur when an attacker causes a victim to supply dangerous content to a vulnerable web application, which is then reflected back to the victim and executed by the web browser. The most common mechanism for delivering malicious content is to include it as a parameter in a URL that is posted publicly or e-mailed directly to the victim. URLs constructed in this manner constitute the core of many phishing schemes, whereby an attacker convinces a victim to visit a URL that refers to a vulnerable site. After the site reflects the attacker's content back to the victim, the content is executed by the victim's browser.",
+            "external_id": "cwe-79",
+            "created_at": "2017-01-05T01:51:19.000Z"
+          }
+        }
+      },
+      "structured_scope": {
+        "data": {
+          "id": "29061",
+          "type": "structured-scope",
+          "attributes": {
+            "asset_type": "URL",
+            "asset_identifier": "www.wayfair.com",
+            "eligible_for_bounty": true,
+            "eligible_for_submission": true,
+            "instruction": "",
+            "max_severity": "critical",
+            "created_at": "2019-05-22T14:44:17.142Z",
+            "updated_at": "2019-05-22T14:44:17.142Z",
+            "reference": ""
+          }
+        }
+      },
+      "activities": {
+        "data": [
+          {
+            "type": "activity-comment",
+            "id": "15303172",
+            "attributes": {
+              "message": "Hey there! [I am Hackbot](https://docs.hackerone.com/programs/hackbot.html), I help find possible duplicates and related reports. Here are my top suggestions:\n\n* (94%) Report [#1453057](/reports/1453057) by [hrithikbot](/hrithikbot) (triaged): RXSS on http://23.57.12.239/ (Jan 2022 - 15 days)\n* (77%) Report [#1463158](/reports/1463158) by [hrithikbot](/hrithikbot) (triaged): RXSS on http://23.46.9.66/ (Jan 2022 - 5 days)\n\n",
+              "created_at": "2022-02-02T17:56:34.970Z",
+              "updated_at": "2022-02-02T17:56:34.970Z",
+              "internal": true
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "20889",
+                  "type": "user",
+                  "attributes": {
+                    "username": "hackbot",
+                    "name": "",
+                    "disabled": false,
+                    "created_at": "2015-04-21T14:15:00.516Z",
+                    "profile_picture": {
+                      "62x62": "https://profile-photos.hackerone-user-content.com/variants/000/020/889/e44ea8512baf3f953a240f75e14deb4e8a5bb6ab_original.png/43e4513b9104ea0d68c9c096cea374ba8440dde3e027af5465c8771e8839a67c",
+                      "82x82": "https://profile-photos.hackerone-user-content.com/variants/000/020/889/e44ea8512baf3f953a240f75e14deb4e8a5bb6ab_original.png/fd4ecbe1e3e98c343c7717114485ace2f830f9253103d3cfa7502059868c516c",
+                      "110x110": "https://profile-photos.hackerone-user-content.com/variants/000/020/889/e44ea8512baf3f953a240f75e14deb4e8a5bb6ab_original.png/eff408a051aa170ba079e951257ae8ad2ca7581dfca95a897d3e98766a0100c4",
+                      "260x260": "https://profile-photos.hackerone-user-content.com/variants/000/020/889/e44ea8512baf3f953a240f75e14deb4e8a5bb6ab_original.png/c11036e2d3f8b05af4b5da5984ccdec6f786b763c8abceb4e68042e10dcdae85"
+                    },
+                    "signal": null,
+                    "impact": 0.0,
+                    "reputation": 102,
+                    "bio": "(C) Futurama",
+                    "website": "",
+                    "location": "",
+                    "hackerone_triager": false
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "activity-bug-triaged",
+            "id": "15319280",
+            "attributes": {
+              "message": "",
+              "created_at": "2022-02-03T16:40:49.021Z",
+              "updated_at": "2022-02-03T16:40:49.021Z",
+              "internal": false
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1187184",
+                  "type": "user",
+                  "attributes": {
+                    "username": "rderveloy",
+                    "name": "Robert Derveloy",
+                    "disabled": false,
+                    "created_at": "2020-06-12T00:38:17.825Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "82x82": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "110x110": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "260x260": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png"
+                    },
+                    "signal": null,
+                    "impact": null,
+                    "reputation": null,
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "hackerone_triager": false
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "activity-reference-id-added",
+            "id": "15319283",
+            "attributes": {
+              "message": null,
+              "created_at": "2022-02-03T16:41:00.511Z",
+              "updated_at": "2022-02-03T16:41:00.511Z",
+              "internal": true,
+              "reference": "Awaiting Assignment",
+              "reference_url": null
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1114474",
+                  "type": "user",
+                  "attributes": {
+                    "username": "hackerone-defectdojo",
+                    "name": null,
+                    "disabled": false,
+                    "created_at": "2020-05-07T21:13:14.035Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "82x82": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "110x110": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "260x260": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png"
+                    },
+                    "signal": null,
+                    "impact": null,
+                    "reputation": null,
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "hackerone_triager": false
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "activity-bounty-awarded",
+            "id": "15319285",
+            "attributes": {
+              "message": "",
+              "created_at": "2022-02-03T16:41:04.805Z",
+              "updated_at": "2022-02-03T16:41:04.805Z",
+              "internal": false,
+              "bounty_amount": "100.00",
+              "bonus_amount": "0.00"
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1187184",
+                  "type": "user",
+                  "attributes": {
+                    "username": "rderveloy",
+                    "name": "Robert Derveloy",
+                    "disabled": false,
+                    "created_at": "2020-06-12T00:38:17.825Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "82x82": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "110x110": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "260x260": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png"
+                    },
+                    "signal": null,
+                    "impact": null,
+                    "reputation": null,
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "hackerone_triager": false
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "activity-reference-id-added",
+            "id": "15319318",
+            "attributes": {
+              "message": null,
+              "created_at": "2022-02-03T16:43:48.132Z",
+              "updated_at": "2022-02-03T16:43:48.132Z",
+              "internal": true,
+              "reference": "SAPPS-1287",
+              "reference_url": null
+            },
+            "relationships": {
+              "actor": {
+                "data": {
+                  "id": "1114474",
+                  "type": "user",
+                  "attributes": {
+                    "username": "hackerone-defectdojo",
+                    "name": null,
+                    "disabled": false,
+                    "created_at": "2020-05-07T21:13:14.035Z",
+                    "profile_picture": {
+                      "62x62": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "82x82": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "110x110": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png",
+                      "260x260": "/assets/avatars/default-71a302d706457f3d3a31eb30fa3e73e6cf0b1d677b8fa218eaeaffd67ae97918.png"
+                    },
+                    "signal": null,
+                    "impact": null,
+                    "reputation": null,
+                    "bio": null,
+                    "website": null,
+                    "location": null,
+                    "hackerone_triager": false
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bounties": {
+        "data": [
+          {
+            "id": "366317",
+            "type": "bounty",
+            "attributes": {
+              "amount": "100.00",
+              "bonus_amount": "0.00",
+              "awarded_amount": "100.00",
+              "awarded_bonus_amount": "0.00",
+              "awarded_currency": "USD",
+              "created_at": "2022-02-03T16:41:04.796Z",
+              "relationships": {
+                "report": {
+                  "data": {
+                    "id": "1468598",
+                    "type": "report",
+                    "attributes": {
+                      "title": "RXSS ",
+                      "state": "triaged",
+                      "created_at": "2022-02-02T17:56:30.358Z",
+                      "vulnerability_information": "Hi team,\n\nFor understanding the context of the vulnerability we need to understand Akamai cdn's routing system which allocates IP addresses for their client. So when a client uses akamai CDN akamai assigns an IP address to the respective organization. (https://learn.akamai.com/en-us/webhelp/client-access-control/client-access-control-user-guide/GUID-453BB6D2-36B9-4CE8-9F3A-D2CB47008B13.html)\n\nSSL: https://www.shodan.io/host/23.211.206.46\n\nSubject: C=US, ST=MASSACHUSETTS, L=Boston, O=Wayfair, LLC\n\nPOC: \n```\nhttp://23.211.206.46/7/0/33/1d/www.citysearch.com/search?what=x\u0026where=place%22%3E%3Csvg+onload=confirm(document.domain)%3E\n```\n\n## Impact\n\nAn attacker can perform an XSS attack.\n\nRegards,\n@hrithikbot",
+                      "triaged_at": "2022-02-03T16:40:49.021Z",
+                      "closed_at": null,
+                      "last_reporter_activity_at": "2022-02-02T17:56:30.603Z",
+                      "first_program_activity_at": "2022-02-03T16:40:49.021Z",
+                      "last_program_activity_at": "2022-02-03T16:41:04.805Z",
+                      "bounty_awarded_at": "2022-02-03T16:41:04.805Z",
+                      "swag_awarded_at": null,
+                      "disclosed_at": null,
+                      "reporter_agreed_on_going_public_at": null,
+                      "issue_tracker_reference_id": "SAPPS-1287",
+                      "last_public_activity_at": "2022-02-03T16:41:04.805Z",
+                      "last_activity_at": "2022-02-03T16:41:04.805Z",
+                      "source": null,
+                      "timer_bounty_awarded_elapsed_time": 15,
+                      "timer_bounty_awarded_miss_at": "2022-03-17T16:40:49.021Z",
+                      "timer_first_program_response_miss_at": "2022-02-07T17:56:30.603Z",
+                      "timer_first_program_response_elapsed_time": 81858,
+                      "timer_report_resolved_miss_at": "2022-02-02T17:56:30.603Z",
+                      "timer_report_resolved_elapsed_time": null,
+                      "timer_report_triage_miss_at": "2022-02-10T17:56:30.603Z",
+                      "timer_report_triage_elapsed_time": 81858
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "summaries": {
+        "data": []
+      },
+      "custom_field_values": {
+        "data": []
+      },
+      "automated_remediation_guidance": {
+        "data": {
+          "id": "119802",
+          "type": "automated-remediation-guidance",
+          "attributes": {
+            "reference": "https://cwe.mitre.org/data/definitions/79.html",
+            "created_at": "2022-02-03T16:40:49.182Z"
+          }
+        }
+      }
+    }
+  }
+}

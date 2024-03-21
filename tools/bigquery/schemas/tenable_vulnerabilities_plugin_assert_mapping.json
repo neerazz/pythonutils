@@ -1,0 +1,89 @@
+[
+  {
+    "name": "output",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "output_checksum",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "truncated",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "port",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "protocol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "service",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "severity",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "first_found",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "last_found",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "host_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hostname",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "host_ips",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "host_ip",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "host_netbios_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "host_fqdn",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "modification",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

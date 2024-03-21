@@ -1,0 +1,74 @@
+[
+  {
+    "name": "count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "plugin_family",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "plugin_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "plugin_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vulnerability_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vpr_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "accepted_count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "recasted_count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "counts_by_severity",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "value",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "cvss_base_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "cvss3_base_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "severity",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]
